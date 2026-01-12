@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO STACK -->
-    <title>Darpan Studio | Best Wedding Photographer in Varanasi, Uttar Pradesh</title>
-    <meta name="description" content="Darpan Studio is the premier wedding studio in Varanasi, Uttar Pradesh. Services: Wedding Films, Pre-Wedding, Fashion Photography, and Cinematic Video. Serving Varanasi India Globally.">
+    <!-- ADVANCED SEO STACK -->
+    <title>Darpan Studio | Best Wedding Photographer in Varanasi & UP</title>
+    <meta name="description" content="Darpan Studio is the premier luxury wedding photographer and cinematographer in Varanasi. Specialized in candid photography, cinematic films, and drone shoots across Uttar Pradesh and India.">
     
     <!-- Icons & Animations -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -14,7 +14,7 @@
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;300;400;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;300;400;600&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
         :root {
@@ -22,8 +22,8 @@
             --black: #000000;
             --deep-obsidian: #050505;
             --white: #ffffff;
-            --border: rgba(197, 160, 89, 0.25);
-            --text-grey: #999999;
+            --border: rgba(197, 160, 89, 0.15);
+            --text-grey: #888888;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -33,7 +33,7 @@
         h1, h2, h3, h4, .serif { font-family: 'Playfair Display', serif; font-weight: 400; }
         .cinzel { font-family: 'Cinzel', serif; letter-spacing: 4px; }
 
-        /* --- MAGIC INTRO --- */
+        /* --- MAGIC CINEMATIC INTRO --- */
         #intro-shutter {
             position: fixed; inset: 0; background: var(--deep-obsidian); z-index: 10000;
             display: flex; align-items: center; justify-content: center;
@@ -41,30 +41,31 @@
         }
         .shutter-content { text-align: center; }
         .shutter-content h1 { 
-            font-size: 1.8rem; letter-spacing: 8px; color: var(--gold); 
-            text-transform: uppercase; border-bottom: 2px solid var(--gold); 
-            padding-bottom: 15px; margin-bottom: 10px; font-family: 'Cinzel', serif;
+            font-size: 1.2rem; letter-spacing: 15px; color: var(--gold); 
+            text-transform: uppercase; border-bottom: 1px solid var(--gold); 
+            padding-bottom: 15px; margin-bottom: 10px;
         }
-        .shutter-content p { color: #666; letter-spacing: 6px; font-size: 0.75rem; text-transform: uppercase; }
+        .shutter-content p { color: #555; letter-spacing: 8px; font-size: 0.6rem; text-transform: uppercase; }
 
         /* --- HEADER --- */
         nav {
-            position: fixed; top: 0; width: 100%; padding: 20px 5%;
+            position: fixed; top: 0; width: 100%; padding: 25px 5%;
             display: flex; justify-content: space-between; align-items: center;
             z-index: 1000; transition: 0.5s ease;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.9), transparent);
+            background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent);
         }
         nav.scrolled {
-            padding: 15px 5%; background: rgba(5, 5, 5, 0.98); 
+            padding: 15px 5%; background: rgba(8, 8, 8, 0.98); 
             border-bottom: 1px solid var(--border);
         }
-        .nav-logo a { font-family: 'Cinzel', serif; font-size: 1.4rem; color: var(--white); text-decoration: none; font-weight: 700; letter-spacing: 1px; }
+        .nav-logo a { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--white); text-decoration: none; font-weight: 700; letter-spacing: 1px; }
         .nav-logo span { color: var(--gold); }
-        .nav-links a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase; margin-left: 25px; transition: 0.3s; font-weight: 600; }
+        .nav-links a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; margin-left: 30px; transition: 0.3s; }
         .nav-links a:hover { color: var(--gold); }
 
-        /* --- HERO SLIDER --- */
+        /* --- PREMIUM HERO (AUTO SLIDER) --- */
         .hero { height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; text-align: center; background: #000; }
+        
         .slider-container { position: absolute; inset: 0; z-index: 0; }
         
         .slide {
@@ -74,9 +75,17 @@
             animation: kenBurns 18s infinite;
         }
         
-        .slide:nth-child(1) { animation-delay: 0s; background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070'); }
-        .slide:nth-child(2) { animation-delay: 6s; background-image: url('https://images.unsplash.com/photo-1511285560982-1356c11d4606?q=80&w=2076'); }
-        .slide:nth-child(3) { animation-delay: 12s; background-image: url('https://images.unsplash.com/photo-1606216794074-735e91aa2c92?q=80&w=2070'); }
+        /* Slide 1 */
+        .slide:nth-child(1) { 
+            animation-delay: 0s; 
+            background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070'); 
+        }
+
+        /* Slide 2 */
+        .slide:nth-child(2) { 
+            animation-delay: 9s; 
+            background-image: url('https://images.unsplash.com/photo-1606216794074-735e91aa2c92?q=80&w=2070&auto=format&fit=crop'); 
+        }
 
         @keyframes kenBurns {
             0% { opacity: 0; transform: scale(1); }
@@ -86,82 +95,98 @@
             100% { opacity: 0; }
         }
 
-        .hero-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.55); z-index: 1; }
+        .hero-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.4); z-index: 1; }
+        
         .hero-text { position: relative; z-index: 2; padding: 0 20px; }
-        .hero-text h1 { font-size: clamp(2.5rem, 6vw, 4.8rem); color: var(--white); margin-bottom: 10px; font-weight: 400; letter-spacing: -1px; text-shadow: 0 10px 40px rgba(0,0,0,0.9); }
-        .hero-text p { font-size: 0.8rem; letter-spacing: 6px; color: var(--gold); text-transform: uppercase; margin-bottom: 35px; opacity: 1; font-weight: 600; }
+        .hero-text h1 { font-size: clamp(2.2rem, 6vw, 4.5rem); color: var(--white); margin-bottom: 5px; font-weight: 400; letter-spacing: -1px; text-shadow: 0 10px 30px rgba(0,0,0,0.8); }
+        .hero-text p { font-size: 0.65rem; letter-spacing: 10px; color: var(--gold); text-transform: uppercase; margin-bottom: 35px; opacity: 0.9; }
         
         .btn-minimal {
-            padding: 15px 45px; border: 1px solid var(--gold); color: var(--white); text-decoration: none; font-size: 0.7rem; 
-            letter-spacing: 4px; text-transform: uppercase; transition: 0.5s; background: rgba(0,0,0,0.4); display: inline-block;
+            padding: 15px 40px; border: 1px solid var(--gold); color: var(--white); text-decoration: none; font-size: 0.6rem; 
+            letter-spacing: 4px; text-transform: uppercase; transition: 0.5s; background: rgba(0,0,0,0.3); display: inline-block; cursor: pointer;
         }
-        .btn-minimal:hover { background: var(--gold); color: var(--black); font-weight: bold; }
+        .btn-minimal:hover { background: var(--gold); color: var(--black); }
 
         /* --- ARTIST SECTION --- */
-        .artist-profile { padding: 90px 10%; display: flex; align-items: center; justify-content: center; background: var(--deep-obsidian); text-align: center; }
-        .artist-inner { max-width: 800px; display: flex; flex-direction: column; align-items: center; }
-        .artist-img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin-bottom: 25px; border: 3px solid var(--gold); padding: 4px; }
-        .artist-inner blockquote { font-family: 'Playfair Display', serif; font-size: 1.5rem; line-height: 1.4; margin-bottom: 25px; font-style: italic; color: #f0f0f0; }
-        .artist-signature { font-family: 'Cinzel', serif; font-size: 0.85rem; color: var(--gold); letter-spacing: 4px; text-transform: uppercase; }
+        .artist-profile { padding: 80px 10%; display: flex; align-items: center; justify-content: center; background: var(--deep-obsidian); text-align: center; }
+        .artist-inner { max-width: 700px; display: flex; flex-direction: column; align-items: center; }
+        
+        .artist-img { 
+            width: 150px; height: 150px; border-radius: 50%; object-fit: cover; 
+            margin-bottom: 20px; border: 2px solid var(--gold); padding: 3px; 
+        }
+        
+        .artist-inner blockquote { font-family: 'Playfair Display', serif; font-size: 1.6rem; line-height: 1.3; margin-bottom: 20px; font-style: italic; color: #eee; }
+        .artist-signature { font-family: 'Cinzel', serif; font-size: 0.75rem; color: var(--gold); letter-spacing: 4px; text-transform: uppercase; }
 
         /* --- VIDEO SHOWCASE --- */
-        .video-showcase { padding: 50px 5% 90px; background: var(--deep-obsidian); text-align: center; }
-        .video-container { max-width: 950px; margin: 0 auto; position: relative; box-shadow: 0 30px 60px rgba(0,0,0,0.6); border-radius: 4px; overflow: hidden; background: #000; border: 1px solid #222; }
-        .video-container iframe { width: 100%; height: 535px; display: block; }
-        .channel-btn { margin-top: 30px; display: inline-block; color: var(--gold); border: 1px solid var(--gold); padding: 10px 25px; text-decoration: none; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; transition: 0.3s; }
-        .channel-btn:hover { background: var(--gold); color: black; }
+        .video-showcase { padding: 40px 5% 80px; background: var(--deep-obsidian); text-align: center; }
+        .video-container { 
+            max-width: 900px; margin: 0 auto 40px; position: relative; 
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5); border-radius: 4px; overflow: hidden;
+            background: #000;
+        }
+        .video-container iframe {
+            width: 100%; height: 500px; display: block; border: none;
+        }
 
         /* --- SERVICES LIST --- */
         .services-section { padding: 100px 8%; background: var(--black); }
         .sec-header { text-align: center; margin-bottom: 70px; }
         .sec-header h4 { color: var(--gold); letter-spacing: 6px; text-transform: uppercase; font-size: 0.8rem; margin-bottom: 15px; }
-        .sec-header h2 { font-family: 'Cinzel', serif; font-size: 2.5rem; color: white; font-weight: 600; letter-spacing: 2px; }
+        .sec-header h2 { font-size: 2.8rem; color: white; }
 
-        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
-        .service-card { background: #0a0a0a; padding: 45px 30px; text-align: center; border: 1px solid rgba(255, 255, 255, 0.05); transition: all 0.4s ease; position: relative; }
-        .service-card:hover { transform: translateY(-10px); border-color: var(--gold); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-        .s-icon { font-size: 2rem; color: var(--gold); margin-bottom: 20px; opacity: 0.9; }
-        .service-card h3 { font-family: 'Playfair Display', serif; font-size: 1.6rem; margin-bottom: 15px; color: white; }
-        .service-card p { color: #aaa; font-size: 0.85rem; margin-bottom: 25px; line-height: 1.7; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; }
+        .service-card { background: #0f0f0f; padding: 50px 30px; text-align: center; border: 1px solid rgba(255, 255, 255, 0.03); transition: all 0.4s ease; position: relative; }
+        .service-card:hover { transform: translateY(-10px); border-color: var(--gold); }
+        .s-icon { font-size: 2.2rem; color: var(--gold); margin-bottom: 25px; opacity: 0.8; }
+        .service-card h3 { font-family: 'Playfair Display', serif; font-size: 1.7rem; margin-bottom: 20px; color: white; }
+        .service-card p { color: #888; font-size: 0.9rem; margin-bottom: 30px; line-height: 1.8; }
         .s-link { color: var(--gold); text-decoration: none; text-transform: uppercase; letter-spacing: 2px; font-size: 0.7rem; border-bottom: 1px solid transparent; transition: 0.3s; cursor: pointer; }
         .service-card:hover .s-link { border-bottom: 1px solid var(--gold); }
 
         /* --- GALLERY --- */
-        .grand-gallery { padding: 100px 5%; background: var(--deep-obsidian); }
+        .grand-gallery { padding: 100px 5%; background: var(--black); }
         .curation-header { margin-bottom: 60px; text-align: center; }
         .curation-header h4 { color: var(--gold); letter-spacing: 6px; text-transform: uppercase; font-size: 0.7rem; margin-bottom: 15px; }
-        .curation-header h2 { font-family: 'Cinzel', serif; font-size: 3rem; font-weight: 600; }
+        .curation-header h2 { font-size: 3.2rem; }
 
         .pinterest-grid { column-count: 4; column-gap: 15px; }
         .pin-item { break-inside: avoid; margin-bottom: 15px; position: relative; border-radius: 2px; overflow: hidden; background: #111; }
-        .pin-item img { width: 100%; height: auto !important; display: block; transition: transform 0.6s ease, filter 0.6s ease; filter: grayscale(10%); }
+        .pin-item img { width: 100%; height: auto !important; display: block; transition: transform 0.6s ease, filter 0.6s ease; filter: grayscale(20%); }
         .pin-item:hover img { transform: scale(1.05); filter: grayscale(0%); }
 
-        /* --- REVIEWS SECTION --- */
-        .kind-words { padding: 100px 10%; background: #0c0c0c; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); }
-        .kind-words h2 { font-family: 'Cinzel', serif; font-weight: 600; letter-spacing: 2px; }
-        .word-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; margin-top: 60px; }
-        .word-card { background: #111; padding: 40px 25px; border-radius: 4px; border: 1px solid #222; transition: 0.3s; }
-        .word-card:hover { border-color: var(--gold); transform: translateY(-5px); }
-        .word-card p { font-style: italic; color: #bbb; font-size: 1rem; margin-bottom: 25px; font-family: 'Playfair Display'; line-height: 1.6; }
-        .word-card h4 { font-size: 0.7rem; letter-spacing: 3px; color: var(--gold); text-transform: uppercase; font-weight: 700; }
-        .star-rating { color: var(--gold); font-size: 0.8rem; margin-bottom: 15px; }
+        /* --- REVIEWS --- */
+        .kind-words { padding: 120px 10%; background: #0c0c0c; text-align: center; }
+        .word-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 50px; margin-top: 60px; }
+        .word-card p { font-style: italic; color: #bbb; font-size: 1.1rem; margin-bottom: 20px; font-family: 'Playfair Display'; }
+        .word-card h4 { font-size: 0.75rem; letter-spacing: 3px; color: var(--gold); text-transform: uppercase; }
 
         /* --- FOOTER --- */
-        .grand-footer { background: #050505; padding: 90px 8% 40px; border-top: 1px solid var(--border); }
+        .grand-footer { background: #050505; padding: 100px 8% 50px; border-top: 1px solid var(--border); }
         .f-container { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 60px; margin-bottom: 60px; }
-        .f-brand h2 { color: var(--gold); font-family: 'Cinzel'; font-size: 1.8rem; margin-bottom: 20px; }
-        .f-brand p { color: var(--text-grey); font-size: 0.9rem; line-height: 1.8; max-width: 320px; }
-        .f-socials a { color: var(--white); margin-right: 25px; opacity: 0.5; transition: 0.3s; font-size: 1.3rem; }
+        .f-brand h2 { color: var(--gold); font-family: 'Cinzel'; font-size: 1.6rem; margin-bottom: 25px; }
+        
+        .f-brand p { 
+            color: var(--text-grey); 
+            font-size: 0.9rem; 
+            line-height: 1.8;
+            max-width: 320px;
+        }
+
+        .f-socials a { color: var(--white); margin-right: 25px; opacity: 0.4; transition: 0.3s; font-size: 1.2rem; }
         .f-socials a:hover { opacity: 1; color: var(--gold); }
-        .f-title { font-family: 'Cinzel', serif; color: var(--gold); font-size: 0.8rem; letter-spacing: 3px; margin-bottom: 30px; }
-        .f-links { list-style: none; color: var(--text-grey); font-size: 0.9rem; }
+        .f-title { font-family: 'Cinzel', serif; color: var(--gold); font-size: 0.75rem; letter-spacing: 3px; margin-bottom: 30px; }
+        .f-links { list-style: none; color: var(--text-grey); font-size: 0.85rem; }
         .f-links li { margin-bottom: 12px; }
+        
         .f-links a { color: var(--text-grey); text-decoration: none; transition: 0.3s; display: inline-block; }
         .f-links a:hover { color: var(--gold); transform: translateX(5px); }
-        .footer-bottom { border-top: 1px solid #1a1a1a; padding-top: 40px; display: flex; justify-content: space-between; align-items: center; color: #555; font-size: 0.75rem; letter-spacing: 2px; }
-        .wa-float { position: fixed; bottom: 30px; right: 30px; background: #25D366; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 1000; box-shadow: 0 10px 20px rgba(0,0,0,0.5); transition: transform 0.3s; }
-        .wa-float:hover { transform: scale(1.1); }
+
+        .footer-bottom { border-top: 1px solid #111; padding-top: 40px; display: flex; justify-content: space-between; align-items: center; color: #444; font-size: 0.7rem; letter-spacing: 2px; }
+
+        .wa-float { position: fixed; bottom: 30px; right: 30px; background: #25D366; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 1000; box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+        .seo-hidden { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
 
         @media (max-width: 1024px) { 
             .f-container { grid-template-columns: 1fr 1fr; }
@@ -173,8 +198,8 @@
             .f-container { grid-template-columns: 1fr; text-align: center; }
             .f-brand p { margin: 0 auto; }
             .sec-header h2 { font-size: 2.2rem; }
-            .hero-text h1 { font-size: 2.4rem; }
-            .video-container iframe { height: 250px; }
+            .hero-text h1 { font-size: 2.2rem; }
+            .video-container iframe { height: 300px; }
         }
     </style>
 </head>
@@ -184,7 +209,7 @@
     <div id="intro-shutter">
         <div class="shutter-content">
             <h1>Darpan Studio</h1>
-            <p>Varanasi • Serving Globally</p>
+            <p>Varanasi • UP • Worldwide</p>
         </div>
     </div>
 
@@ -194,116 +219,136 @@
         <div class="nav-links">
             <a href="#gallery">Portfolio</a>
             <a href="#services">Services</a>
-            <a href="#reviews">Reviews</a>
-            <a href="https://wa.me/919140768195?text=Hi%20Darpan%20Studio%2C%20I%20would%20like%20to%20inquire%20about%20your%20services.">Book Now</a>
+            <a href="#vision">The Artist</a>
+            <!-- Custom Msg: General Inquiry -->
+            <a href="https://wa.me/919140768195?text=Hi%20Darpan%20Studio%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20inquire%20about%20availability.">Reserve</a>
         </div>
     </nav>
 
     <!-- HERO -->
     <section class="hero">
         <div class="slider-container">
+            <!-- Slide 1 -->
             <div class="slide"></div>
-            <div class="slide"></div>
+            <!-- Slide 2 -->
             <div class="slide"></div>
         </div>
+        
         <div class="hero-overlay"></div>
+
         <div class="hero-text" data-aos="fade-up" data-aos-duration="2000">
-            <p>Shivpur, Varanasi • Serving Globally</p>
-            <h1>Darpan Photography & Studio</h1>
-            <a href="https://wa.me/919140768195?text=Hi%20Darpan%20Studio%2C%20I%20want%20to%20reserve%20a%20date%20for%20my%20event." class="btn-minimal">Reserve Your Date</a>
+            <p>Based in Shivpur • Varanasi</p>
+            <h1>Artistry in Every Frame.</h1>
+            <!-- Custom Msg: Hero Inquiry -->
+            <a href="https://wa.me/919140768195?text=Hi%20Darpan%20Studio%2C%20I%20am%20interested%20in%20reserving%20my%20wedding%20date.%20Please%20share%20your%20packages." class="btn-minimal">Reserve Your Date</a>
         </div>
     </section>
 
    <!-- Artist -->
     <section class="artist-profile" id="vision">
-       <div class="artist-inner" data-aos="fade-up">
+        <div class="artist-inner" data-aos="fade-up">
             <img 
                 src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?q=80&w=2070"
-                alt="Darpan Studio Varanasi"
+                alt="Darpan Studio Lead Photographer"
                 class="artist-img"
                 loading="lazy"
             >
             <blockquote>
-                "Preserving the most precious moments of your life. From candid emotions to grand cinematic productions, we capture the essence of your story in Varanasi and globally."
+                "Preserving the most precious moments of your life. From candid emotions to grand cinematic productions in Varanasi."
             </blockquote>
             <div class="artist-signature">
-                Darpan Studio Team
+                Rahul — Darpan Studio
             </div>
-            <a href="https://www.youtube.com/@darpanstudio6616" target="_blank" class="channel-btn">
-                <i class="fab fa-youtube"></i> Visit Our Channel
-            </a>
         </div>
     </section>
 
-    <!-- Video Showcase -->
-    <section class="video-showcase">
-        <div class="sec-header" data-aos="fade-up">
-            <h4>Cinematic Experience</h4>
-            <h2>Wedding Films & Music Videos</h2>
-        </div>
-        <div class="video-container" data-aos="zoom-in">
-            <iframe 
-                src="https://www.youtube.com/embed/bSLQJQy7NFw" 
-                title="Cinematic Wedding Video" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
-        </div>
+  <!-- Video Showcase (YouTube Embed) -->
+<section class="video-showcase">
+    <div class="sec-header" data-aos="fade-up">
+        <h4>Cinematic Experience</h4>
+        <h2>Wedding Films</h2>
+    </div>
+
+    <div class="video-container" data-aos="zoom-in">
+        <iframe 
+            src="https://www.youtube.com/embed/G-A8chRMAkE"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            title="Darpan Studio Wedding Film">
+        </iframe>
+    </div>
+</section>
+
+        <!-- YouTube Channel Button -->
+        <a href="https://www.youtube.com/@darpanstudio6616" target="_blank" class="btn-minimal" data-aos="fade-up">Watch More on YouTube</a>
     </section>
 
-    <!-- Services (ALL 6 RESTORED) -->
+    <!-- Services -->
     <section class="services-section" id="services">
         <div class="sec-header" data-aos="fade-up">
-            <h4>What We Do</h4>
-            <h2>Our Premium Services</h2>
+            <h4>Exquisite Offerings</h4>
+            <h2>Our Specialized Services</h2>
         </div>
         <div class="services-grid">
+            
+            <!-- Wedding Photography -->
             <div class="service-card" data-aos="fade-up">
                 <i class="fas fa-camera-retro s-icon"></i>
-                <h3>Photography</h3>
-                <p>All types of Photography: Candid, Traditional, Pre-Wedding, and Post-Wedding shoots in Varanasi & Globally.</p>
-                <a href="#gallery" class="s-link">View Gallery</a>
+                <h3>Wedding Photography</h3>
+                <p>High-end candid and traditional wedding photography in Varanasi. We frame the raw emotions and grand moments.</p>
+                <a href="#gallery" class="s-link">Explore Gallery</a>
             </div>
+
+            <!-- Cinematic Films -->
             <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                 <i class="fas fa-film s-icon"></i>
                 <h3>Cinematic Films</h3>
-                <p>High-quality Cinematic Video Shoots, Video Mixing, and Traditional Videography for weddings and events.</p>
-                <a href="https://wa.me/919140768195?text=I%20need%20a%20quote%20for%20Cinematic%20Video%20Shoot." class="s-link">Get a Quote</a>
+                <p>Premier wedding cinematography. Video mixing, cinematic edits, and storytelling that feels like a movie.</p>
+                <a href="https://www.youtube.com/@darpanstudio6616" target="_blank" class="s-link">Watch Our Films</a>
             </div>
+
+            <!-- Drone & Live -->
             <div class="service-card" data-aos="fade-up" data-aos-delay="200">
                 <i class="fas fa-helicopter s-icon"></i>
                 <h3>Drone & Live</h3>
-                <p>Advanced coverage with Drone, Crane, and LED Wall setup. Live Telecast facilities available.</p>
-                <a href="https://wa.me/919140768195?text=Inquiry%20about%20Drone%20and%20Live%20Telecast." class="s-link">Check Availability</a>
+                <p>Advanced coverage with Drone, Crane, and LED Wall setup. Live Telecast facilities available for grand events.</p>
+                <a href="https://wa.me/919140768195?text=Hi%20Darpan%20Studio%2C%20I%20am%20interested%20in%20Drone%20and%20Live%20setup." class="s-link">Inquire Now</a>
             </div>
+
+            <!-- Destination Weddings -->
             <div class="service-card" data-aos="fade-up">
-                <i class="fab fa-youtube s-icon"></i>
-                <h3>Fashion & YouTube</h3>
-                <p>Fashion Shoots, Music Video Shooting & Editing. Complete YouTube production services.</p>
-                <a href="https://www.youtube.com/@darpanstudio6616" target="_blank" class="s-link">Visit Channel</a>
+                <i class="fas fa-plane-departure s-icon"></i>
+                <h3>Destination Weddings</h3>
+                <p>Traveling across India and globally. Bringing our elite lens to your destination, wherever it may be.</p>
+                <a href="https://wa.me/919140768195?text=Hi%20Darpan%20Studio%2C%20I%20am%20planning%20a%20Destination%20Wedding." class="s-link">Discuss Travel</a>
             </div>
+
+            <!-- Creative Design -->
             <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                 <i class="fas fa-paint-brush s-icon"></i>
                 <h3>Creative Design</h3>
-                <p>Professional Poster Designing and Premium Wedding Album creation (Karizma/Canvera).</p>
-                <a href="https://wa.me/919140768195?text=I%20am%20interested%20in%20Album%20and%20Poster%20design." class="s-link">See Designs</a>
+                <p>Professional Poster Designing and Premium Wedding Album creation (Karizma/Canvera) to preserve memories.</p>
+                <a href="https://wa.me/919140768195?text=Hi%20Darpan%20Studio%2C%20I%20am%20interested%20in%20Album%20Design." class="s-link">See Designs</a>
             </div>
+
+            <!-- Fashion & Music -->
             <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                <i class="fas fa-map-marker-alt s-icon"></i>
-                <h3>Destination Events</h3>
-                <p>Available for shoots across India and Globally. Capturing your moments wherever you go.</p>
-                <a href="https://wa.me/919140768195?text=I%20am%20planning%20a%20Destination%20Wedding." class="s-link">Contact Us</a>
+                <i class="fab fa-youtube s-icon"></i>
+                <h3>Fashion & Music Videos</h3>
+                <p>Fashion shoots, music video shooting & editing. Complete YouTube production services.</p>
+                <a href="https://wa.me/919140768195?text=Hi%20Darpan%20Studio%2C%20I%20am%20looking%20for%20a%20Music%20Video%20shoot." class="s-link">Work With Us</a>
             </div>
+
         </div>
     </section>
 
-    <!-- GALLERY (ALL 20 SLOTS RESTORED) -->
+    <!-- GALLERY (Using Unsplash Images for Demo) -->
     <section class="grand-gallery" id="gallery">
         <div class="curation-header" data-aos="fade-up">
-            <h4>Portfolio</h4>
-            <h2>Featured Captures</h2>
+            <h4>The Portfolio</h4>
+            <h2>Selected Works</h2>
         </div>
+        <!-- Pinterest Grid -->
         <div class="pinterest-grid">
             <div class="pin-item" data-aos="fade-up"><img src="https://unsplash.com/photos/ySw3ENMuD9E/download" loading="lazy"></div>
             <div class="pin-item" data-aos="fade-up"><img src="https://unsplash.com/photos/4OfdMmhHdlA/download" loading="lazy"></div>
@@ -321,28 +366,17 @@
             <div class="pin-item" data-aos="fade-up"><img src="https://unsplash.com/photos/ZLcDqQzaclU/download" loading="lazy"></div>
             <div class="pin-item" data-aos="fade-up"><img src="https://unsplash.com/photos/M8YKi58QKrM/download" loading="lazy"></div>
             <div class="pin-item" data-aos="fade-up"><img src="https://unsplash.com/photos/eZXqmTEaYA8/download" loading="lazy"></div>
-            <div class="pin-item" data-aos="fade-up"><img src="https://unsplash.com/photos/80l2FftMuBI/download" loading="lazy"></div>
-            <div class="pin-item" data-aos="fade-up"><img src="https://unsplash.com/photos/ykcXm_u84sg/download" loading="lazy"></div>
-            <div class="pin-item" data-aos="fade-up"><img src="https://unsplash.com/photos/TtHQ5AZ6M1Q/download" loading="lazy"></div>
-            <div class="pin-item" data-aos="fade-up"><img src="https://unsplash.com/photos/ByInrRliROc/download" loading="lazy"></div>
         </div>
     </section>
 
     <!-- Reviews -->
-    <section class="kind-words" id="reviews">
-        <h4>Testimonials</h4>
-        <h2 class="serif">Client Love</h2>
+    <section class="kind-words">
+        <h4>The Experience</h4>
+        <h2 class="serif">Client Testimonials</h2>
         <div class="word-grid">
-            <div class="word-card" data-aos="fade-up">
-                <div class="star-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                <p>"Darpan Studio made our wedding in Varanasi look like a Bollywood movie. Their cinematic style is just incredible."</p>
-                <h4>Happy Client</h4>
-            </div>
-            <div class="word-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="star-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                <p>"Best studio in Uttar Pradesh. The drone shots and cinematic editing are top-notch. Very professional team."</p>
-                <h4>Varanasi Couple</h4>
-            </div>
+            <div class="word-card" data-aos="fade-up"><p>"Darpan Studio made our wedding in Varanasi look like a Bollywood movie..."</p><h4>Rahul & Priya</h4></div>
+            <div class="word-card" data-aos="fade-up" data-aos-delay="100"><p>"Best drone shots we have ever seen in Uttar Pradesh..."</p><h4>Amit & Sneha</h4></div>
+            <div class="word-card" data-aos="fade-up" data-aos-delay="200"><p>"Truly professional and creative team..."</p><h4>Vikas & Anjali</h4></div>
         </div>
     </section>
 
@@ -351,20 +385,19 @@
         <div class="f-container">
             <div class="f-brand">
                 <h2>DARPAN<span> STUDIO</span></h2>
-                <p>Photography • Videography • Serving Globally</p>
-                <p>Shivpur, Varanasi, Uttar Pradesh 221003</p>
+                <p>Preserving the legacy of love through an elite lens. Serving Varanasi and globally.</p>
                 <div class="f-socials" style="margin-top: 25px;">
                     <a href="https://www.instagram.com/darpan_studio_/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100094703676476" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.youtube.com/@darpanstudio6616" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100094703676476" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 </div>
             </div>
             <div class="f-col">
                 <h4 class="f-title">Information</h4>
                 <ul class="f-links">
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#vision">The Vision</a></li>
                     <li><a href="#gallery">Portfolio</a></li>
-                    <li><a href="mailto:rahul.dilute@gmail.com">Email Us</a></li>
+                    <li><a href="#services">Services</a></li>
                 </ul>
             </div>
             <div class="f-col">
@@ -372,25 +405,25 @@
                 <ul class="f-links">
                     <li><a href="tel:+919140768195">+91 91407 68195</a></li>
                     <li><a href="mailto:rahul.dilute@gmail.com">rahul.dilute@gmail.com</a></li>
-                    <li>Varanasi, India</li>
+                    <li>Shivpur, Varanasi, UP</li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 DARPAN STUDIO | SERVING GLOBALLY</p>
+            <p>&copy; 2026 DARPAN STUDIO</p>
         </div>
     </footer>
 
     <!-- WhatsApp Float -->
     <a href="https://wa.me/919140768195?text=Hi%20Darpan%20Studio%2C%20I%20saw%20your%20website%20and%20want%20to%20know%20more%20about%20your%20services." class="wa-float">
-        <i class="fab fa-whatsapp" style="color: white; font-size: 2rem;"></i>
+        <i class="fab fa-whatsapp" style="color: white; font-size: 1.8rem;"></i>
     </a>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
         AOS.init({ duration: 1200, once: true });
         window.addEventListener('load', () => {
-            setTimeout(() => { document.getElementById('intro-shutter').style.transform = 'translateY(-100%)'; }, 2000);
+            setTimeout(() => { document.getElementById('intro-shutter').style.transform = 'translateY(-100%)'; }, 1000);
         });
         window.onscroll = function() {
             const nav = document.getElementById('navbar');
